@@ -1,16 +1,16 @@
+buku = [
+    ['Struktur Data',2000],
+    ['Alpro',2500],
+    ['Kalkulus',4000],
+    ['Logika',1000]
+]
 
 
 
 
 
-
-
-
-
-class Mahasiswa:
-    def __init__(self, nama, jurusan):
-        self.nama = nama
-        self.jurusan = jurusan
-
-    def sapa(self):
-        print("Halo, saya", self.nama)
+for i in range(len(buku)):
+    judul = buku[-1][0]
+    denda = buku[-1][1]
+print(judul)
+print(denda)
